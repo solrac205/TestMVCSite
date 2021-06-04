@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
+    <PackageReference Include="RestSharp" Version="106.11.8-alpha.0.14" />
     <PackageReference Include="ServiceStack" Version="5.*" />
 
     <!-- Required for Razor compilation on change: https://docs.microsoft.com/en-us/aspnet/core/mvc/views/view-compilation?view=aspnetcore-5.0 -->
