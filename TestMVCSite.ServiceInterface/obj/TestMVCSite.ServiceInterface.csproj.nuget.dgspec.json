@@ -1,0 +1,139 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/TestMVCSite.ServiceInterface.csproj": {}
+  },
+  "projects": {
+    "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/TestMVCSite.ServiceInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/TestMVCSite.ServiceInterface.csproj",
+        "projectName": "TestMVCSite.ServiceInterface",
+        "projectPath": "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/TestMVCSite.ServiceInterface.csproj",
+        "packagesPath": "/Users/secureip/.nuget/packages/",
+        "outputPath": "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/secureip/Projects/TestMVCSite/NuGet.Config",
+          "/Users/secureip/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/servicestack": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5",
+            "projectReferences": {
+              "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/TestMVCSite.ServiceModel.csproj": {
+                "projectPath": "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/TestMVCSite.ServiceModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5",
+          "dependencies": {
+            "ServiceStack": {
+              "target": "Package",
+              "version": "[5.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/TestMVCSite.ServiceModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/TestMVCSite.ServiceModel.csproj",
+        "projectName": "TestMVCSite.ServiceModel",
+        "projectPath": "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/TestMVCSite.ServiceModel.csproj",
+        "packagesPath": "/Users/secureip/.nuget/packages/",
+        "outputPath": "/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/secureip/Projects/TestMVCSite/NuGet.Config",
+          "/Users/secureip/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.myget.org/F/servicestack": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "ServiceStack.Interfaces": {
+              "target": "Package",
+              "version": "[5.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/bin/Debug/net5/TestMVCSite.ServiceInterface.deps.json
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/bin/Debug/net5/TestMVCSite.ServiceInterface.dll
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/bin/Debug/net5/ref/TestMVCSite.ServiceInterface.dll
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/bin/Debug/net5/TestMVCSite.ServiceInterface.pdb
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/bin/Debug/net5/TestMVCSite.ServiceModel.dll
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/bin/Debug/net5/TestMVCSite.ServiceModel.pdb
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/TestMVCSite.ServiceInterface.csprojAssemblyReference.cache
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/TestMVCSite.ServiceInterface.GeneratedMSBuildEditorConfig.editorconfig
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/TestMVCSite.ServiceInterface.AssemblyInfoInputs.cache
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/TestMVCSite.ServiceInterface.AssemblyInfo.cs
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/TestMVCSite.ServiceInterface.csproj.CoreCompileInputs.cache
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/TestMVCSite.ServiceInterface.csproj.CopyComplete
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/TestMVCSite.ServiceInterface.dll
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/ref/TestMVCSite.ServiceInterface.dll
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceInterface/obj/Debug/net5/TestMVCSite.ServiceInterface.pdb

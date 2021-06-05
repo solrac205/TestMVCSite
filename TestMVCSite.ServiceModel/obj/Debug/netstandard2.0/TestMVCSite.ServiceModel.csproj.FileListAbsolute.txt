@@ -1,0 +1,9 @@
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/bin/Debug/netstandard2.0/TestMVCSite.ServiceModel.deps.json
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/bin/Debug/netstandard2.0/TestMVCSite.ServiceModel.dll
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/bin/Debug/netstandard2.0/TestMVCSite.ServiceModel.pdb
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/obj/Debug/netstandard2.0/TestMVCSite.ServiceModel.csprojAssemblyReference.cache
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/obj/Debug/netstandard2.0/TestMVCSite.ServiceModel.AssemblyInfoInputs.cache
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/obj/Debug/netstandard2.0/TestMVCSite.ServiceModel.AssemblyInfo.cs
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/obj/Debug/netstandard2.0/TestMVCSite.ServiceModel.csproj.CoreCompileInputs.cache
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/obj/Debug/netstandard2.0/TestMVCSite.ServiceModel.dll
+/Users/secureip/Projects/TestMVCSite/TestMVCSite.ServiceModel/obj/Debug/netstandard2.0/TestMVCSite.ServiceModel.pdb
