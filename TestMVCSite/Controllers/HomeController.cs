@@ -1,17 +1,25 @@
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Net.Http;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using RestSharp;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using ServiceStack;
 using TestMVCSite.Models;
 
 namespace TestMVCSite.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly JsonServiceClient _jsonClient;
+
+        public HomeController()
+        {
+            
+            _jsonClient = new JsonServiceClient("https://covid-19-statistics.p.rapidapi.com");
+            _jsonClient.Headers.Add("x-rapidapi-key", "76548c6ba4msh11ab1ec6e61ac7dp12e0c3jsn42e5fddc3ed5");
+            _jsonClient.Headers.Add("x-rapidapi-host","covid-19-statistics.p.rapidapi.com");
+
+        }
+        
         public IActionResult Index()
         {
             return View();
@@ -30,36 +38,22 @@ namespace TestMVCSite.Controllers
 
             return View();
         }
-        public async Task<IActionResult> CovidReport()
+        public IActionResult CovidReport()
         {
             ViewData["Message"] = "COVID Report";
+
+            var regionsResponse = _jsonClient.Get<RegionsResponse>( new Regions());
+
+            var lst = (from d in regionsResponse.data
+                                        select new SelectListItem
+                                        {
+                                            Value = d.iso.ToString(),
+                                            Text = d.name.ToString(),
+                                        }).OrderBy(x => x.Text).ToList();
             
-            /*var client = new HttpClient();
-            var request = new HttpRequestMessage
-            {
-                Method = HttpMethod.Get,
-                RequestUri = new Uri("https://covid-19-statistics.p.rapidapi.com/regions"),
-                Headers =
-                {
-                    { "x-rapidapi-key", "SIGN-UP-FOR-KEY" },
-                    { "x-rapidapi-host", "covid-19-statistics.p.rapidapi.com" },
-                },
-            };
-            using (var response = await client.SendAsync(request))
-            {
-                response.EnsureSuccessStatusCode();
-                var body = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(body);
-                return View(body);
-            }*/
             
-            var client = new RestClient("https://covid-19-statistics.p.rapidapi.com/regions");
-            var request = new RestRequest(Method.GET);
-            request.AddHeader("x-rapidapi-key", "SIGN-UP-FOR-KEY");
-            request.AddHeader("x-rapidapi-host", "covid-19-statistics.p.rapidapi.com");
-            var response = client.Execute(request);
-            
-            return View(response);
+            return View(lst);
+
         }
         public IActionResult Error()
         {
